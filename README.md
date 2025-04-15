@@ -1,6 +1,5 @@
 # Rust-CPP example
 
-A simple demonstration of calling C++ code from Rust using FFI (Foreign Function Interface).
 This is just an example implementation of cc-rs crate.
 
 It counts prime numbers up to a given number using the Sieve of Eratosthenes algorithm implemented in C++.

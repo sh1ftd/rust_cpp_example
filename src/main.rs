@@ -33,8 +33,7 @@ fn main() {
     unsafe {
         let prime_count = count_primes(max_number);
         println!(
-            "There are {} prime numbers up to {}",
-            prime_count, max_number
+            "There are {prime_count} prime numbers up to {max_number}"
         );
     }
 

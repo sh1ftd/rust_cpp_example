@@ -2,7 +2,7 @@ cargo-features = ["profile-rustflags"]
 
 [package]
     name = "rust_cpp_example"
-    version = "0.1.0"
+    version = "0.1.1"
     edition = "2024"
     license = "MIT"
     authors = ["Shifty <contact@shifty.cloud>"]
@@ -31,7 +31,7 @@ cargo-features = ["profile-rustflags"]
 [dependencies]
 
 [build-dependencies]
-    cc = "1.0.90"
+    cc = "1.2.61"
 
 [profile.dev]
     overflow-checks = true

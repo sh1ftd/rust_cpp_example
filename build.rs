@@ -24,8 +24,6 @@ fn main() {
     println!("cargo:rustc-link-arg=/CETCOMPAT");
     println!("cargo:rustc-link-arg=/NXCOMPAT");
     println!("cargo:rustc-link-arg=/GUARD:CF");
-    println!("cargo:rustc-link-arg=/GUARD:EHCONT");
-    println!("cargo:rustc-link-arg=/FORCE:GUARDEHCONT");
     println!("cargo:rustc-link-arg=/DEPENDENTLOADFLAG:1");
     println!("cargo:rustc-link-arg=/HIGHENTROPYVA");
 
@@ -34,7 +32,6 @@ fn main() {
     println!("cargo:rustc-link-arg=/OPT:REF");
     println!("cargo:rustc-link-arg=/RELEASE");
     println!("cargo:rustc-link-arg=/OPT:LBR");
-    println!("cargo:rustc-link-arg=/LTCG");
     println!("cargo:rustc-link-arg=/INCREMENTAL:NO");
     println!("cargo:rustc-link-arg=/BREPRO");
 

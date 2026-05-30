@@ -19,7 +19,3 @@ cargo build --release
 ## Credits
 
 - Uses [cc-rs](https://github.com/rust-lang/cc-rs) for C++ compilation and linking
-
-## License
-
-MIT
